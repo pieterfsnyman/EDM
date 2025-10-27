@@ -55,7 +55,7 @@ def main():
 
         # TODO: dynamic axes
         torch.onnx.export(matcher, (data),
-                          output_model_pth, verbose=True, input_names=['input'], output_names=['output'], opset_version=16)
+                          output_model_pth, verbose=True, input_names=['input'], output_names=['output'])
 
     onnx_model = onnx.load(output_model_pth)
 
