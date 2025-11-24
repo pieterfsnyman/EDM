@@ -71,10 +71,12 @@ Part of the code is based on [EfficientLoFTR](https://github.com/zju3dv/efficien
 ## Citation
 If you find this project useful, please cite:
 ```bibtex
-@article{li2025edm,
-  title={EDM: Efficient Deep Feature Matching},
-  author={Li, Xi and Rao, Tong and Pan, Cihui},
-  journal={arXiv preprint arXiv:2503.05122},
-  year={2025}
+@InProceedings{Li_2025_ICCV,
+    author    = {Li, Xi and Rao, Tong and Pan, Cihui},
+    title     = {EDM: Efficient Deep Feature Matching},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {26198-26208}
 }
 ```
